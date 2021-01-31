@@ -1,0 +1,220 @@
+body{
+    font-family: sans-serif;
+}
+.Header{
+    height: 70px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.HeaderSearch{
+    height: 70px;
+    width: 70%;
+    float: left;
+    overflow: hidden;
+    padding-top: 15px;
+    display: inline-flex;
+}
+
+
+.LoginButton{
+    height: 70px;
+    width: 6%;
+    float: left;
+    font-size: 18px;
+    overflow: hidden;
+    padding-top: 18px;
+}
+
+.SellButton{
+    height: 70px;
+    width: 8%;
+    background-color: whitesmoke;
+    float: left;
+    overflow: hidden;
+    padding-top: 8px;
+    background-repeat: no-repeat;
+}
+
+#LoginBtn:hover{
+    border-bottom: solid 2px black;
+}
+
+
+.Logo{
+    height: 70px;
+    width: 10%;
+    float: left;
+    color: black;
+    float: left;
+    overflow: hidden;
+    padding-top: 10px;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+
+.nav{
+    height: 35px;
+    width: 100%;
+    float: left;
+    color: bisque;
+    background-color: white;
+    border-bottom: solid 1px gray;
+}
+
+.Menu{
+    margin-left: 35px;
+    color: black;
+    line-height: 35px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Menu:hover{
+    color: lightseagreen;
+}
+
+#banner{
+    width: 100%;
+    height: 350px;
+    background-image: url('../Images/banner.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+
+
+
+#contentArea{
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+.proBox{
+height: 375px;
+width: 22%;
+float: left;
+text-align: center;
+border: solid 1px lightgrey;
+background-color: burlywood;
+margin: 25px 0px 15px 33px;
+box-shadow: 4px 7px 7px grey;
+}
+
+.proBoxText{
+    height: 125px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    background-color: lavender;
+    padding-top: 10px;
+    font-style: italic;
+    color: darkred;
+    }
+    
+    .productImage{
+        height: 250px;
+        width: 100%;
+        float: left;
+        background-color: whitesmoke;
+    }
+
+#footer{
+    height: 25px;
+    width: 100%;
+    text-align:center ;
+    color: grey;
+    background-color: lightgray;
+    float: left;
+}
+
+/* Home End */
+/* ................................ */
+
+/* Upload Page */
+
+#contentAreaUpload{
+    width: 100%;
+    height: 750px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+
+
+#DetailDiv{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+
+.ProductAreaBox
+{
+    height:500px;
+    width:46%;
+    float:left;
+    margin:20px;
+}
+
+.productImgDiv {
+    height:400px;
+    width:80%;
+    float:left;
+    margin-left:60px;
+    margin-top:60px;
+    background:#e0c1c1;
+}
+
+
+#checkOutDiv{
+    width: 60%;
+    height: 750px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+
+#checkOutProduct{
+    width: 40%;
+    height: 750px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+
+
+
+.CheckOutproBox{
+    height: 475px;
+    width: 90%;
+    float: left;
+    text-align: center;
+    border: solid 1px lightgrey;
+    margin: 70px 0px 15px 33px;
+    box-shadow: 4px 7px 7px grey;
+    }
+    
+    .CheckOutproBoxText{
+        height: 100px;
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding-top: 10px;
+        font-style: italic;
+        color: darkred;
+        }
+        
+        .CheckOutproductImage{
+            height: 375px;
+            width: 100%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 10px 5px 0 0;
+        }
